@@ -1,4 +1,4 @@
-## Deprecated
+# Deprecated
 
 As of October 2024, Street View, Then & Now: New York City's Fifth Avenue will no longer be updated by NYPL and will soon be archived. Source code for the site can be viewed here: https://github.com/nypl-publicdomain/fifth-avenue and the digitized Fifth Avenue, New York, From Start to Finish collection can be viewed here: https://digitalcollections.nypl.org/collections/fifth-avenue-new-york-from-start-to-finish.
 
@@ -46,7 +46,17 @@ With Space/Time's [field-of-view](https://github.com/nypl-spacetime/field-of-vie
 
 ## Running locally
 
-NYPL is no longer maintaining this project, which relies on Gulp, a deprecated version of `node-sass`, and other packages that are only compatible with Python version 2 and Node version 14. To run locally, we suggest using `pyenv` and `nvm` to create a compatible environment.
+NYPL is no longer maintaining this project, which relies on Gulp, a deprecated version of `node-sass`, and other packages that are only compatible with Python version 2 and Node version 14.
+
+To run locally, we suggest using `pyenv` and `nvm` to create a compatible environment.
+
+Or, you can run the site locally using a PHP server:
+
+```bash
+$ php -S localhost:8888 -t .
+```
+
+and go to `localhost:8888` in a browser.
 
 ---
 
